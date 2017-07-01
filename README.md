@@ -30,7 +30,7 @@ Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter b
 ```
 Como visto o retorno é um ResultDTO onde os resultados da execução estão encasulados e podem ser obtidos por meio dos métodos acessores.
 No caso de visualização em tela, será retornado uma Jframe pré-configurado.
-```
+```java
 
 	private View defaultConfig() {
 		frame.getContentPane().add(this);
