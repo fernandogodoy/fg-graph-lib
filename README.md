@@ -19,7 +19,7 @@ Fazendo uso da lib JGraph(http://jgrapht.org/) este projeto provê dois geradore
 > Vertex - Vertices
 
 Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter bem como efetuar o calculo de custo da arvore.
-```
+```java
 
 	ResponseBuilder<Tree> builder = new ResponseBuilder<>(tree);
 	ResultDTO dto = builder.withCost()
@@ -44,7 +44,7 @@ No caso de visualização em tela, será retornado uma Jframe pré-configurado.
 ```
 
 Fica sob responsabilidade do utilizador setar o nome da janela, caso queira e acionar o método que open para exibição do JFrame.
-```
+```java
 
 	public View name(String name) {
 		frame.setName(name);
