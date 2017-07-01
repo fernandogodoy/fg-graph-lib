@@ -1,11 +1,11 @@
-# Graph-Lib
+# Fg-Graph-Lib
 
 ### Objetivo
 Este projeto tem por objetivo ser um facilitador para geração de representações visuais de árvores.
 
-Fazendo uso da lib JGraph(http://jgrapht.org/) este projeto provê dois geradores para representar árvores.
+Fazendo uso da biblioteca JGraph(http://jgrapht.org/) este projeto provê dois geradores para representar árvores.
 
-> StringGenerator - Representação em formato texto.
+> StringGenerator - Representação no formato texto.
 
 > JFrame Generator - Representação no formato JFrame
 
@@ -18,7 +18,7 @@ Fazendo uso da lib JGraph(http://jgrapht.org/) este projeto provê dois geradore
 
 > Vertex - Vertices
 
-Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter bem como efetuar o calculo de custo da arvore.
+Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter, bem como efetuar o cálculo de custo da árvore.
 ```java
 
 	ResponseBuilder<Tree> builder = new ResponseBuilder<>(tree);
@@ -28,7 +28,7 @@ Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter b
 				.build();
 						
 ```
-Como visto o retorno é um ResultDTO onde os resultados da execução estão encasulados e podem ser obtidos por meio dos métodos acessores.
+Como visto, o retorno é um ResultDTO onde os resultados da execução estão encapsulados e podem ser obtidos por meio dos métodos acessores.
 No caso de visualização em tela, será retornado uma Jframe pré-configurado.
 ```java
 
