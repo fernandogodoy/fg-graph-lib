@@ -23,9 +23,9 @@ Por meio da classe ResponseBuilder é possivel optar qual formato deseja obter b
 
 	ResponseBuilder<Tree> builder = new ResponseBuilder<>(tree);
 	ResultDTO dto = builder.withCost()
-							.withTextResult()
-							.withGraphicResult()
-							.build();
+					.withTextResult()
+					.withGraphicResult()
+					.build();
 						
 ```
 Como visto o retorno é um ResultDTO onde os resultados da execução estão encasulados e podem ser obtidos por meio dos métodos acessores.
