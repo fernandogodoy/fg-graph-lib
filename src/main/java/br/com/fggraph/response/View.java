@@ -35,6 +35,7 @@ public class View extends JApplet {
 	public View(JGraphXAdapter<Vertex, DefaultEdge> jgAdapter) {
 		this.jgAdapter = jgAdapter;
 		init();
+		defaultConfig();
 	}
 
 	public View name(String name) {
@@ -42,7 +43,7 @@ public class View extends JApplet {
 		return this;
 	}
 
-	public View defaultConfig() {
+	private View defaultConfig() {
 		frame.getContentPane().add(this);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
