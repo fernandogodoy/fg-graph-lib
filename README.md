@@ -10,6 +10,29 @@ Fazendo uso da biblioteca JGraph(http://jgrapht.org/) este projeto provê dois g
 > JFrame Generator - Representação no formato JFrame
 
 ### Como usar
+
+#### Configuração Repositório
+
+```xml
+	<repositories>
+		<repository>
+			<id>godoy</id>
+			<name>owner-rep</name>
+			<url>https://dl.bintray.com/godoy/graph</url>
+		</repository>
+	</repositories>
+```
+#### Inclusão da dependência
+
+```xml
+	<dependency>
+		<groupId>br.com.fggraph</groupId>
+		<artifactId>fg-graph-lib</artifactId>
+		<version>1.0</version>
+	</dependency>
+
+```
+
 É necessário implementação de 3 interfaces
 
 > Tree - Árvore do qual se deseja obter a representação
@@ -59,3 +82,4 @@ Fica sob responsabilidade do utilizador setar o nome da janela, caso queira e ac
 
 ### Limitações
 A representação visual no momento se da por meio de um grafo direcionado não sendo possível outras configurações até o momento.
+
