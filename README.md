@@ -16,8 +16,7 @@ Fazendo uso da biblioteca JGraph(http://jgrapht.org/) este projeto provê dois g
 ```xml
 	<repositories>
 		<repository>
-			<id>godoy</id>
-			<name>owner-rep</name>
+			<id>graph</id>
 			<url>https://dl.bintray.com/godoy/graph</url>
 		</repository>
 	</repositories>
