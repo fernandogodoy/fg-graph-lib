@@ -4,7 +4,7 @@
 
 	<groupId>br.com.fggraph</groupId>
 	<artifactId>fg-graph-lib</artifactId>
-	<version>1.0</version>
+	<version>1.1-SNAPSHOT</version>
 	<name>Projeto Graph</name>
 	<description>Biblioteca para auxiliar a exibição de resultados com grafos </description>
 	<developers>
