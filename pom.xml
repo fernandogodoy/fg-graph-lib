@@ -4,7 +4,7 @@
 
 	<groupId>br.com.fggraph</groupId>
 	<artifactId>fg-graph-lib</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>Projeto Graph</name>
 	<description>Biblioteca para auxiliar a exibição de resultados com grafos </description>
 	<developers>
@@ -45,7 +45,13 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	<distributionManagement>
+		<repository>
+			<id>bintray-godoy-graph</id>
+			<name>Godoy-graph</name>
+			<url>https://api.bintray.com/maven/godoy/graph/fg-graph-lib/;publish=1</url>
+		</repository>
+	</distributionManagement>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
